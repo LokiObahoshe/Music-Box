@@ -95,7 +95,8 @@ export const musicExample = [
         "songId": "JoinForBite"
     },
     {
-        "title": "Green Hills",
-        "songId": "GreenHills"
+        "title": "Join Us For A Bite - JT Music",
+        "image": "JoinForBite.jpg",
+        "songId": "JoinForBite"
     }
 ]
