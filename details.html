@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Song Player</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <script type="module" src="scripts/details.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="detailsContainer">
+            <h1 id="songTitle">Now Playing</h1>
+            <img id="songImage" alt="Song cover art" />
+            <audio id="audioPlayer"></audio>
+
+            <div class="customAudioPlayer">
+                <button id="playPause">
+                    <img id="playPauseIcon" src="images/pause.png" alt="Pause">
+                </button>
+                <input type="range" id="seekBar" value="0" min="0" max="100">
+                <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

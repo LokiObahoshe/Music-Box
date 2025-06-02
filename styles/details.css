@@ -1,0 +1,18 @@
+body {
+    background-color: #4B5846;
+    color: #F3FFEE;
+    font-family: "Parkinsans", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+audio {
+    width: 100%;
+    max-width: 600px;
+}
